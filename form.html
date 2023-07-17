@@ -11,8 +11,14 @@
     <h1>Students Admission Form</h1>
     <form>
         <label> Full Name</label>
-        <input type="">
+        <input type="" required minlength="3">
 
+        <br><br>
+        <label for="">  password</label>      
+        <input type="password">
+        <br><br>
+        <label for="">  email id</label>      
+        <input type="email id">
         <br><br>
 
         <label>Gender</label>
@@ -47,10 +53,18 @@
         <br><br>
         <details>
             <summary>Term & Conditions</summary>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ducimus optio consequuntur illo eaque
-                velit commodi molestias magnam amet quaerat tempore, vel repellendus non maiores, ullam rerum quibusdam
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <mark>Beatae ducimus optio consequuntur illo eaque
+                velit</mark> commodi molestias magnam amet quaerat tempore, vel repellendus non maiores, ullam rerum quibusdam
                 debitis qui!</p>
         </details>
+        <br><br>
+        <input type="checkbox" required>
+        <label for="">i accept for terma Conditions</label>
+        <br><br>
+        <label for="image">upload passportsize photo</label>
+        <input id="image"  type="file">
+        
+        <br><br>
 
         <button>Submit</button>
     </form>
