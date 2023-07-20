@@ -1,102 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body
-        {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background: rgb(144, 163, 146);
-        }
-        .myinput{
-        width:100%;
-        padding: 10px;
-        box-sizing: border-box ;
-        border-radius: 5px;
-        border:1px solid black;
-        margin-bottom: 20px;
-        margin-top: 5px;
-        
-      }
-      .mycard{
-        border: 1px solid crimson;
-        width: 70%;
-        border-radius: 10px;
-        box-shadow: 3px 3px 10px 2px rgb(153, 144, 110);
-        display: flex;
-      }
-      .card-info{
-        border: 2px solid red;
-        width: 50%;
-        padding: 30px;
-        box-sizing: border-box ;
-        border-radius: 5px;
-        box-shadow: 3px 3px 1px 2px rgba(34, 12, 12, 0.76);
-        background-color: rgb(168, 235, 183);
-      }
-      .my-container
-      { 
-        border: 2px solid red;
-        width: 60%;
-        padding: 30px;
-        box-sizing: border-box ;
-        box-shadow: 3px 2px 1px 2px rgba(34, 12, 12, 0.76);
-        background-color: rgb(168, 235, 183);
-      }
-    
-      .my-btn{
-        width:100%;
-        padding: 10px;
-        border-radius: 5px;
-        background-color: crimson;
-        color:white;
-        border: none;
-        font-weight: bold;
-        margin-top: 30px;
-        cursor: pointer;
-      
-      }
-      .my-btn:hover{
-        background-color: rgb(153, 103, 83);
-      }
-      .my-btn:focus{
-        outline:3px solid #898ba0;
-      }
-      .font-title{
-        font-family: Montserrat;
-        text-align: center;
-        font-size: 30px;
-      }
-    </style>
-</head>
-<body>
-    <divclass="mycard">
-        <div class="card-info">
-            <h1 class="font-title">Welcome Back</h1>
-            <form action="">
-                <label for="email">Email Address</label>
-                <input type="email"class="myinput">
-    
-                <label for="Password">Password</label>
-                <input type="Password"class="myinput">
 
-                <label for="messages">message </label>
-                <input type="text" class="myinput">
-    
-                <button type="button" class="my-btn">Send</button>
-            </form>
-    
-        </div>
-        <div class= "my-container">
-        <h2>Start your journey now</h2>
-        <div>
-            <form action=""></form>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: rgb(144, 163, 146);
+    }
+
+    .myinput {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 1px solid black;
+      margin-bottom: 20px;
+      margin-top: 5px;
+
+    }
+
+    .mycard {
+      /* border: 1px solid crimson; */
+      width: 70%;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px 2px rgb(153, 144, 110);
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 50px;
+    }
+
+    .card-info {
+      border: 2px solid red;
+      width: 50%;
+      padding: 30px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      box-shadow: 3px 3px 1px 2px rgba(34, 12, 12, 0.76);
+      background-color: rgb(168, 235, 183);
+    }
+
+    .my-container {
+      border: 2px solid red;
+      width: 60%;
+      padding: 30px;
+      box-sizing: border-box;
+      box-shadow: 3px 2px 1px 2px rgba(34, 12, 12, 0.76);
+      background-color: rgba(64, 63, 68, 0.349);
+      
+      background-size: cover;
+    }
+
+    .my-btn {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: crimson;
+      color: white;
+      border: none;
+      font-weight: bold;
+      margin-top: 30px;
+      cursor: pointer;
+
+    }
+
+    .my-btn:hover {
+      background-color: rgb(153, 103, 83);
+    }
+
+    .my-btn:focus {
+      outline: 3px solid #898ba0;
+    }
+
+    .font-title {
+      font-family: Montserrat;
+      text-align: center;
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mycard">
+    <div class="card-info">
+      <h1 class="font-title">Welcome Back</h1>
+      <form action="">
+        <label for="email">Email Address</label>
+        <input type="email" class="myinput">
+
+        <label for="Password">Password</label>
+        <input type="Password" class="myinput">
+
+        <label for="messages">message </label>
+        <input type="text" class="myinput">
+
+        <button type="button" class="my-btn">Send</button>
+      </form>
+
     </div>
+    <div class="my-container">
+      <center>
+      <h2>Start your journey now</h2>
+      <img src="https://www.sanjayjangam.com/wp-content/uploads/2023/01/motivational-quotes-in-english.jpg" alt="">
+      <div>
+        <form action=""></form>
+      </div>
+    </center>
+    </div>
+  </div>
 </body>
+
 </html>
